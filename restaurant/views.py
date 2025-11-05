@@ -11,6 +11,7 @@ from .serializers import UserSerializer, MenuItemSerializer, BookingSerializer
 from rest_framework import generics
 from .models import Menu, Booking
 
+
 # Create your views here.
 
 class UserViewSet(viewsets.ModelViewSet):
